@@ -1,0 +1,36 @@
+.timeElement{
+    display: flex;
+    margin: 0 30px;
+    flex-direction: row;
+}
+
+.firstNumber, .secondNumber{
+    display: flex;
+    flex-direction: column;
+    margin: 0 18px;
+    transform: translateY(0px);
+    transition: transform 0.4s;
+    width: 90px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #545C64;
+    color: white;
+    font-size: 40px;
+    height: max-content;
+    padding: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 0 13px 0px #e9ecef;
+    box-shadow: #5D666F -5px 5px, #6C757D -10px 10px, #9aa1a8 -15px 15px, #c1c6ca -20px 20px, #DEE2E6 -25px 25px;
+}
+
+
+.isActive{
+    font-weight: bolder;
+    font-size: 70px;
+    width: calc( 100% + 5px);
+    height: calc( 100% + 5px);
+    box-shadow: 0 0 13px 0px #e9ecef;
+    background-color: #999ca056;
+    border-radius: 50%;
+}
